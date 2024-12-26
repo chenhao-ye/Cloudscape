@@ -1,0 +1,14 @@
+[theme]
+base="light"
+
+[server]
+enableStaticServing = true
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+liveSave = true
+runOnSave = true
+port = 8501
+
+[global]
+developmentMode = false
