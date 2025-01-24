@@ -1,13 +1,8 @@
-### To the Reviewers
-We have refined some architecture graphs since the paper submission, which has led to the current analysis being slightly different from the submitted version. The trends hold across versions and they don't affect the claims and discussions in our paper.
-
----
-
 This repository contains the dataset and code for [Cloudscape: A Study of Storage Services in Modern Cloud Architectures](https://www.usenix.org/conference/fast25/presentation/satija), presented at FAST25. If you use this dataset, you can cite it using: `todo`.
 
 This repository has 3 key parts:
 
-1. **Dataset:** The dataset describes 396 cloud architectures. Each cloud architecture is a GraphML file in `data/architectures/`. The services used across these architectures are described in `data/services.csv`. The [schema section](#1-dataset-schema) describes how to interpret the GraphML and csv files.
+1. **Dataset:** The dataset describes 396 cloud architectures. Each cloud architecture is a GraphML file in `data/graphs/`. The services used across these architectures are described in `data/services.csv`. The [schema section](#1-dataset-schema) describes how to interpret the GraphML and csv files.
 
 1. **Analysis Jupyter Notebook:** We provide a [Jupyter notebook](Analysis.ipynb) that replicates the analysis in the paper. The notebook does not always produce the published version of the graphs. Instead, it favours demonstrating how the query is performed, and aims to miminize the presentation code. Our goal is to demonstrate how to traverse the dataset to future researchers. Refer to the [Analysis section](#2-analysis) on how to setup the environment.
 
