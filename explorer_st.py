@@ -153,7 +153,7 @@ def show_example_architecture():
 
     In rare cases where ordering is unknown, seq might be "NA".
 
-    Ref to [README](https://github.com/darkryder/Cloudscape) for
+    Ref to [README](https://github.com/WiscADSL/Cloudscape) for
     details about different types of nodes.
     """)
 
@@ -184,7 +184,7 @@ with st.sidebar:
 
 st.title("Cloudscape: Architecture Explorer")
 st.write(
-    "[FAST25 paper](https://www.usenix.org/conference/fast25/presentation/satija) | [Dataset](https://github.com/darkryder/Cloudscape) | [BibTeX](https://google.com/)"
+    "[FAST25 paper](https://www.usenix.org/conference/fast25/presentation/satija) | [Dataset](https://github.com/WiscADSL/Cloudscape) | [BibTeX](https://google.com/)"
 )
 
 st.html(
